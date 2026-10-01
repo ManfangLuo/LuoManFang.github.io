@@ -1,2 +1,1 @@
-const button=document.querySelector('.theme-toggle');
-button.addEventListener('click',()=>{document.body.classList.toggle('dark');button.textContent=document.body.classList.contains('dark')?'◑':'◐';});
+const minimalStyles=document.createElement('link');minimalStyles.rel='stylesheet';minimalStyles.href='minimal.css';document.head.appendChild(minimalStyles);const button=document.querySelector('.theme-toggle');button.addEventListener('click',()=>{document.body.classList.toggle('dark');button.textContent=document.body.classList.contains('dark')?'◑':'◐';});
