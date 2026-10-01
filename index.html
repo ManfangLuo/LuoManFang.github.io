@@ -3,69 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Mandy Luo — climate risk, watershed change, and community adaptation." />
-    <title>Mandy Luo | Climate Risk & Watersheds</title>
+    <meta name="description" content="Mandy Luo is an undergraduate researcher studying climate risk, mountain watersheds, and public-facing geospatial research." />
+    <title>Mandy Luo — Climate, Watersheds & Place</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="grain"></div>
     <header class="site-header">
-      <a class="brand" href="#top">MANDY LUO</a>
+      <a class="brand" href="#top">Mandy Luo</a>
       <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
         <a href="#research">Research</a>
-        <a href="#work">Work</a>
-        <a href="#outputs">Outputs</a>
-        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
+        <a href="#news">Updates</a>
       </nav>
       <button class="theme-toggle" type="button" aria-label="Switch colour theme">◐</button>
     </header>
 
     <main id="top">
-      <section class="hero">
+      <section class="hero" id="about">
         <div class="hero-copy">
-          <p class="eyebrow">UNDERGRADUATE RESEARCHER · UNIVERSITY OF BRITISH COLUMBIA</p>
-          <h1>I study how <em>climate-driven</em> landscape change shapes risk in mountain watersheds and communities.</h1>
-          <p class="intro">My work combines field monitoring, GIS and remote sensing, and public-facing research communication to understand hazards, landscape change, and adaptation.</p>
-          <div class="hero-links">
-            <a class="arrow-link" href="#research">Explore research <span>↘</span></a>
-            <a class="arrow-link" href="#outputs">View selected work <span>↘</span></a>
+          <p class="overline">UNDERGRADUATE RESEARCHER · UNIVERSITY OF BRITISH COLUMBIA</p>
+          <h1>I follow how changing <em>mountain landscapes</em> reshape risk, water, and the decisions people make.</h1>
+          <div class="hero-intro">
+            <p class="identity">Mandy Luo · Vancouver, BC</p>
+            <p>I am a Geography and Environment &amp; Sustainability student at UBC. I work across field research, GIS and remote sensing, and research communication to make climate-hazard knowledge more legible and useful.</p>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research">Research focus <span>↓</span></a>
+            <a class="text-link" href="mailto:mluo07@student.ubc.ca">Email me <span>↗</span></a>
           </div>
         </div>
-        <div class="hero-art" aria-label="Abstract contour map illustration">
-          <div class="sun"></div><div class="mountain mountain-one"></div><div class="mountain mountain-two"></div><div class="river"></div>
-          <span class="map-label label-one">BRITISH COLUMBIA</span><span class="map-label label-two">WATERSHED / 49°N</span>
+        <aside class="field-card" aria-label="Research field notes">
+          <div class="field-card-top"><span>FIELD NOTES</span><span>49° N / 123° W</span></div>
+          <div class="contour-map" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i>
+            <span class="map-dot dot-one"></span><span class="map-dot dot-two"></span>
+          </div>
+          <div class="field-card-caption">
+            <p>From aerial imagery to watershed stories.</p>
+            <span>BRITISH COLUMBIA · 2026</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="research-intro" id="research">
+        <div class="section-label"><span>01</span> RESEARCH</div>
+        <div>
+          <p class="large-copy">I am interested in the environmental changes people can see—and the data, maps, and relationships needed to understand what they mean.</p>
+          <p class="body-copy">My work asks how glacier retreat, flooding, landslides, and sediment movement transform mountain watersheds. I am especially drawn to research that is scientifically rigorous while remaining accountable to the people and places it concerns.</p>
         </div>
       </section>
-      <section class="statement" id="research">
-        <p class="section-kicker">01 / RESEARCH</p>
-        <div><h2>From landscape change to <em>evidence people can use.</em></h2><p>I am interested in how climate change reshapes mountain environments through flooding, landslides, glacier retreat, and sediment movement—and how research can be made useful to the communities living with those changes.</p></div>
+
+      <section class="focus-grid" aria-label="Research areas">
+        <article><p class="number">01</p><h2>Climate hazards</h2><p>Flooding, landslides, glacier retreat, and sediment movement in rapidly changing mountain environments.</p></article>
+        <article><p class="number">02</p><h2>Geospatial methods</h2><p>GIS, UAV LiDAR, remote sensing, field monitoring, and spatial storytelling as tools for place-based evidence.</p></article>
+        <article><p class="number">03</p><h2>Research in public</h2><p>Clear, collaborative communication that connects science with communities, partners, and wider audiences.</p></article>
       </section>
-      <section class="themes" aria-label="Research themes">
-        <article><span>01</span><h3>Watershed hazards</h3><p>Tracing how extreme weather, glacier retreat, and sediment mobilization reshape mountain landscapes and hazard exposure.</p></article>
-        <article><span>02</span><h3>Geospatial observation</h3><p>Using GIS, UAV LiDAR, field monitoring, and mapping to connect environmental change with place-based evidence.</p></article>
-        <article><span>03</span><h3>Community adaptation</h3><p>Communicating hazard research clearly and collaboratively with communities, partners, and the wider public.</p></article>
-      </section>
-      <section class="work" id="work">
-        <div class="section-heading"><p class="section-kicker">02 / CURRENT & PAST WORK</p><h2>Research experience</h2></div>
-        <div class="work-list">
-          <article class="work-item"><p class="work-date">2026 — PRESENT</p><div><h3>Landscapes of Climate Change Lab <span>↗</span></h3><p class="work-place">University of British Columbia · Research Assistant</p><p>I support research and communication on climate-related natural hazards in British Columbia mountain communities. My work includes GIS and spatial data organization, preliminary hazard analysis, field monitoring, and project web content.</p><ul><li>Flooding, landslides, sediment mobilization, and hazard monitoring</li><li>GIS · UAV LiDAR · R · Python · StoryMaps</li></ul></div></article>
-          <article class="work-item"><p class="work-date">2025</p><div><h3>Low-carbon building technologies <span>↗</span></h3><p class="work-place">Suzhou University of Science and Technology · Research Assistant</p><p>Supported a National Natural Science Foundation project through literature review and experimental optimization focused on heat and moisture transfer in building envelopes.</p></div></article>
+
+      <section class="experience">
+        <div class="section-heading"><div class="section-label"><span>02</span> EXPERIENCE</div><h2>What I’m doing</h2></div>
+        <div class="experience-list">
+          <article class="experience-item">
+            <p class="date">2026 — PRESENT</p>
+            <div><p class="role">Research Assistant</p><h3>Landscapes of Climate Change Lab</h3><p class="place">UNIVERSITY OF BRITISH COLUMBIA</p><p class="description">Supporting research on climate-related natural hazards in British Columbia mountain communities through spatial data work, field monitoring, hazard research, and public-facing project communication.</p><div class="tags"><span>GIS</span><span>UAV LiDAR</span><span>Fieldwork</span><span>StoryMaps</span></div></div>
+          </article>
+          <article class="experience-item">
+            <p class="date">2025</p>
+            <div><p class="role">Research Assistant</p><h3>Low-carbon Building Technologies</h3><p class="place">SUZHOU UNIVERSITY OF SCIENCE AND TECHNOLOGY</p><p class="description">Supported a National Natural Science Foundation project through literature review and experimental optimization on heat and moisture transfer in building envelopes.</p></div>
+          </article>
         </div>
       </section>
-      <section class="outputs" id="outputs">
-        <div class="section-heading"><p class="section-kicker">03 / SELECTED OUTPUTS</p><h2>Research in public</h2></div>
-        <div class="output-grid">
-          <a class="output-card accent-card" href="https://arcg.is/0mvXmP2" target="_blank" rel="noreferrer"><div class="card-graphic"><span>↝</span><i></i><b></b></div><p class="card-type">STORYMAP · 2026</p><h3>A Changing Watershed</h3><p>An interactive StoryMap about change, place, and field research in the Lillooet watershed.</p><span class="card-link">Open project ↗</span></a>
-          <a class="output-card line-card" href="https://blogs.ubc.ca/lillooetwatershed/" target="_blank" rel="noreferrer"><div class="card-graphic"><span class="bars">▂▃▆▅▇</span></div><p class="card-type">PROJECT WEBSITE · 2026</p><h3>Lillooet Watershed</h3><p>Research communication and project web content for the Landscapes of Climate Change Lab.</p><span class="card-link">Visit website ↗</span></a>
-          <article class="output-card coming-card"><div class="card-graphic"><span>+</span></div><p class="card-type">IN PROGRESS</p><h3>Course & independent projects</h3><p>Spatial analysis, impact assessment, and remote sensing work will be added here.</p></article>
+
+      <section class="projects" id="projects">
+        <div class="section-heading"><div class="section-label"><span>03</span> SELECTED PROJECTS</div><h2>Research, made shareable.</h2></div>
+        <div class="project-grid">
+          <a class="project-card watershed" href="https://arcg.is/0mvXmP2" target="_blank" rel="noreferrer"><div class="project-image"><span>01</span><div class="river-line"></div><div class="ridge ridge-one"></div><div class="ridge ridge-two"></div></div><div class="project-copy"><p>STORYMAP · 2026</p><h3>A Changing Watershed</h3><span>Explore project ↗</span></div></a>
+          <a class="project-card website" href="https://blogs.ubc.ca/lillooetwatershed/" target="_blank" rel="noreferrer"><div class="project-image"><span>02</span><div class="grid-lines"></div><div class="site-window"><b></b><i></i><i></i><i></i></div></div><div class="project-copy"><p>PROJECT WEBSITE · 2026</p><h3>Lillooet Watershed</h3><span>Visit website ↗</span></div></a>
+          <article class="project-card future"><div class="project-image"><span>03</span><div class="plus">+</div></div><div class="project-copy"><p>IN DEVELOPMENT</p><h3>Course &amp; independent work</h3><span>Remote sensing, impact assessment, and spatial analysis projects are next.</span></div></article>
         </div>
       </section>
-      <section class="news"><p class="section-kicker">04 / RECENT</p><div class="news-list"><p><time>2026</time> Research Assistant at UBC's Landscapes of Climate Change Lab.</p><p><time>2026</time> Built research communication for the Lillooet Watershed project.</p><p><time>2025</time> Supported research on low-carbon building technologies in Suzhou.</p></div></section>
+
+      <section class="news" id="news">
+        <div class="section-label"><span>04</span> RECENT UPDATES</div>
+        <div class="news-list"><p><time>2026</time><span>Research Assistant, Landscapes of Climate Change Lab at UBC.</span></p><p><time>2026</time><span>Built StoryMap and project web content for the Lillooet Watershed research initiative.</span></p><p><time>2025</time><span>Supported research on low-carbon building technologies in Suzhou.</span></p></div>
+      </section>
     </main>
-    <footer id="contact"><p class="section-kicker">LET'S CONNECT</p><h2>Interested in climate, hazards, and <em>place-based research?</em></h2><a class="email" href="mailto:mluo07@student.ubc.ca">mluo07@student.ubc.ca ↗</a><div class="footer-bottom"><span>© 2026 Mandy Luo</span><span>Built for research & fieldwork</span></div></footer>
+
+    <footer id="contact"><p class="section-label"><span>05</span> GET IN TOUCH</p><h2>Interested in climate, hazards, or <em>place-based research?</em></h2><a class="email" href="mailto:mluo07@student.ubc.ca">mluo07@student.ubc.ca <span>↗</span></a><div class="footer-bottom"><span>© 2026 Mandy Luo</span><span>Climate · Watersheds · Place</span></div></footer>
     <script src="script.js"></script>
   </body>
 </html>
